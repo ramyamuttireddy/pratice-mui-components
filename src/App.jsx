@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <Container maxWidth="lg" sx={{ bgcolor: "#F8F4F0", padding: "40px" }}>
+      <ButtonAppBar />
         <Box
           sx={{
             display: 'grid',
@@ -64,8 +65,8 @@ function App() {
           {/* Transctions Section */}
           <Box sx={{ gridArea: 'Tranctions', bgcolor: 'white' }}>
           <Box sx={{padding:"40px" ,display:"flex",flexDirection:"column" ,gap:"20px"}}>
-          <Typography varient="h3">App Bar</Typography>
-          <ButtonAppBar />
+          
+        
           </Box>
           </Box>
 
