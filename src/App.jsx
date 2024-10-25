@@ -47,10 +47,13 @@ function App() {
 
           {/* Budgets Section */}
           <Box sx={{ gridArea: 'Budgets', bgcolor: 'white' }}>
-          <Box sx={{padding:"40px"}}>
+          <Box sx={{padding:"24px"}}>
           <BasicSelect />
+          <Grid container spacing={2} sx={{paddingTop:"30px"}}>
           <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
           <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+          </Grid>
+          
           </Box>
           </Box>
 
